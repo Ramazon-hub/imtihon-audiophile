@@ -1,0 +1,16 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Manrope',sans-serif;
+    box-sizing: border-box;
+    color: $color-primary-black;
+}
+.container{
+    max-width: 111rem;
+    padding: 0 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,23 @@
+.listiner{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+    .listiner-information{
+        width: 44.5rem;
+    }   
+    &__heading{
+        margin-bottom: 3.2rem;
+        
+    }
+    &__text{
+        opacity: .5;
+    }
+    &__img{
+        border-radius: $border-radius;
+    }
+    &--best{
+        color: $color-secondary-4A;
+    }
+
+}

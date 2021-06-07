@@ -1,0 +1,61 @@
+.card{
+    width: 35rem;
+    height: 20.4rem;
+    border-radius: $border-radius;
+    background-color: $color-secondary-F1;
+    position: relative;
+  &__headphones{
+    &::before{
+        @include baImages(12.3rem,16rem,'../images/headphones.png'){
+          position: absolute;  
+            top: -8rem;
+            left: 11.3rem;
+        }
+    }
+  }
+  &__speakers{
+    &::before{
+        @include baImages(12.1rem,14.6rem,'../images/speakers.png'){
+          position: absolute;  
+            top: -7.2rem;
+            left: 11.3rem;
+        }
+    }
+  }
+  &__earphones{
+    &::before{
+        @include baImages(17.8rem,16.1rem,'../images/earphones.png'){
+          position: absolute;  
+            top: -8rem;
+            left: 11.3rem;
+        }
+    }
+  }
+    &__heading{
+        margin-top: 11.6rem;
+    }
+   &__text{
+       margin-top: 1.5rem;
+       color: $color-primary-black;
+       opacity: 0.5;
+       &::after{
+           @include baImages(5px,1rem,'../images/Path-strelka.png'){
+               vertical-align: middle;
+               margin-left: 1.3rem;
+               opacity: 1;
+           }
+       }
+   }
+   &--content{
+     width: 54rem;
+     height: 56rem;
+     position: relative;
+   }
+}
+.cards-content{
+    justify-content: space-between;
+}
+.path{
+  text-decoration: none;
+  
+}

@@ -1,0 +1,13 @@
+.headr{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top:3.2rem;
+        z-index: 2;
+        &::after{
+            @include baElements(111rem,1px){
+                background-color:$color-primary-white;
+                margin-top: 3.6rem;
+                opacity: 0.2;
+            }
+        }
+    }

@@ -1,0 +1,17 @@
+@mixin baElements($w,$h) {
+    content: '';
+    display: inline-block;
+    width: $w;
+    height: $h;
+    @content    
+};
+@mixin baImages($w,$h,$url) {
+    content: '';
+    background-image: url($url);
+    display: inline-block;
+    width: $w;
+    height: $h;
+    background-repeat: no-repeat;
+    background-size: contain;
+    @content
+}

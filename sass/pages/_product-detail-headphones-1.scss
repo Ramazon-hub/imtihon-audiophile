@@ -1,0 +1,27 @@
+.go-back{
+    opacity: .5;
+    margin-top: 7.9rem;   
+}
+.count{
+    border: none;
+    outline: none;
+    background-color: $color-secondary-F1;
+    margin-right: 1.6rem;
+    width: 12rem;
+    height: 4.8rem;
+    &::after{
+        @include baElements(1.6rem,1.8rem){
+            content: '+';
+        }
+    }
+    &::placeholder{
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: $color-primary-black;
+    }
+}
+
+
